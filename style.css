@@ -1,0 +1,302 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#212245;
+}
+.navbar ul li a:hover{
+    color:#df2020;
+}
+ul li {
+    margin-left: 30px;
+    list-style: none;
+}
+.bar{
+    display: none;
+}
+.thl{
+    padding: 1px;
+    text-align: justify;
+}
+.tchop {
+ color: rgba(0, 0, 0, 0.74)
+}
+
+.ha {
+    color: #df2020;
+    
+}
+
+.lala {
+    color: black;
+    
+}
+.hero {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#but {
+    background-color: red;
+    color: white;
+    border-radius: 250px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 280px;
+    font-size: large;
+}
+#but:hover{
+    background-color: #212245;
+}
+.command{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ho{
+    text-align: center;
+    line-height: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;    
+}
+
+.section1 {
+    width: 200px;
+    height: 40px;
+    border: 5px;
+    background-color: #fd7b7b;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+    padding: 10px 5px;
+}
+.section1:hover {
+    transition: 1s ease-in-out;
+    border: none;
+    transform: translateY(-20px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+    border-radius: 10px;
+}
+.barre{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: red;
+    padding: 10px;
+}
+.repas {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    
+
+}
+.var {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    
+}
+.button1{
+
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+
+.ligne1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    
+   
+}
+.paye{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+ .paye button{
+     border-radius: 10px;
+
+    }
+
+.drink {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        
+}
+.menu{
+    text-align: center;
+        border-top: 1px groove #df2020;
+        border-left: 1px groove#df2020;
+        border-right: 1px groove #df2020;
+        border-bottom: 1px groove #df2020;
+        margin: 10px;
+        width: 30%
+}
+.livraison{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prix{
+    color: red;
+}
+.ligne .ligne1 .menu{
+    align-items: center;
+    text-align: center;
+    border-top: 1px groove #df2020;
+    border-left: 1px groove#df2020;
+    border-right: 1px groove #df2020;
+    border-bottom: 1px groove #df2020;
+    margin: 10px;
+    width: 30%;
+}
+
+.menu img:hover {
+    transition: 1s ease-in-out;
+    border: none;
+    transform: translateY(-20px);
+    
+}
+
+footer {
+    background-color: pink;
+}
+.pied{
+    display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin: 20px 50px 20px 50px;
+        
+
+}
+#v{ margin-left: 10px;}
+
+.appli{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+span i{
+    margin-left: 12px;
+    border: 1px solid;
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    background-color: #df2020;
+}
+i{
+    margin-left: 2px;
+        padding: 12px;
+}
+#email{
+    width: 250px; height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.lignefin{
+    width: 80%;
+    padding-left: 10%;
+}
+
+
+
+@media(max-width:768px){
+.pied{
+    flex-direction: column;
+}
+.bar{
+    display: contents;
+}
+}
+@media(max-width:768px){
+    .navbar{
+    display: flex;
+        justify-content:space-around;
+        padding: 3px;
+    }
+}
+@media(max-width: 768px){
+    .hero{
+        flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+    }
+    .barre{
+        margin: 15px;
+    }
+    .tchop{
+        font-size: xx-large;
+    }
+    .ha{
+        font-size: larger;
+    
+    }
+    .lala{
+        font-size: large;
+    }
+}
+@media(max-width: 768px) {
+    .services {flex-direction: column;
+        align-items: center
+        
+    }
+}
+@media(max-width: 768px) {
+    .section {
+        min-width:768px;
+       flex-wrap: wrap;
+    }
+}
+@media(max-width:768px) {
+   .drink 
+   {flex-direction: column;
+    align-items: center;
+
+}
+}
+@media(max-width:768px) {
+ .ligne1{
+        width: 150%;
+        flex-wrap: wrap;
+
+    }
+}
